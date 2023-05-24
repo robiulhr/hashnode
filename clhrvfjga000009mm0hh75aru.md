@@ -5,8 +5,8 @@ seoDescription: "Suppose you want to declare a function but instead of calling i
 datePublished: Wed May 17 2023 15:42:05 GMT+0000 (Coordinated Universal Time)
 cuid: clhrvfjga000009mm0hh75aru
 slug: javascript-settimeout-all-you-need-to-know
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684315171357/e47e0dfb-949d-4763-a914-f05933897962.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1684337969680/0496244d-d837-4016-98a9-5cbce9bb9dd3.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684955248096/14313ed5-db0e-4736-8843-fc4905a3cb14.webp
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1684955673555/d12d8469-7f08-449d-ba3f-4d6b6ff4c6c1.webp
 tags: tutorial, programming-blogs, javascript, asynchronous, web-development
 
 ---
@@ -299,21 +299,22 @@ Here's how it unfolds:
 
 * The `setTimeout` function is added to the `call stack`, creating a timer in the `Web API`.
     
-    ![javascript-setTimeout-step-1](https://cdn.hashnode.com/res/hashnode/image/upload/v1684323811435/922e2f82-e6da-4353-964b-d89c1d9f2fc2.png align="center")
+    ![Javascript setTimeout - All you need to know(robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684955488313/f2fc07ec-c676-4241-9e40-0b0dbba4ec6a.webp align="center")
     
     The timer starts counting down, and the JavaScript engine proceeds to execute other code if present.
     
-* After approximately 3 seconds, the timer expires, and the task function is moved from the `Web API` to the `callback queue`.
+* After approximately 3 seconds, the timer expires, and the task function is moved  
+    from the `Web API` to the `callback queue`.
     
-    ![javascript-setTimeout-step-2](https://cdn.hashnode.com/res/hashnode/image/upload/v1684323872397/0e9c6520-67f8-4561-adc1-42c89d410ea3.png align="center")
+    ![Javascript setTimeout - All you need to know(robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684955557529/14e373a1-6632-47aa-aba7-50b6dfb18ca9.webp align="center")
     
 * Since the `call stack` is empty, the event loop removes the task function from the `callback queue`, pushes it onto the call stack, and executes it.
     
-    ![javascript-setTimeout-step-3](https://cdn.hashnode.com/res/hashnode/image/upload/v1684323973265/a9885994-c276-496f-a137-73050acbdfd8.png align="center")
+    ![Javascript setTimeout - All you need to know(robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684955594575/1755b53a-6834-4530-9187-54eb4f3a3f43.webp align="center")
     
 * Inside the task function, the `console.log()` statement is executed, creating a new function execution context.
     
-    ![javascript-setTimeout-step-4](https://cdn.hashnode.com/res/hashnode/image/upload/v1684324114969/6261d305-28cb-4e9d-9045-b5597e59055a.png align="center")
+    ![Javascript setTimeout - All you need to know(robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684955639855/8538b044-c497-48b5-877a-cfa0ca2514e7.webp align="center")
     
 * Finally, when the `console.log()` and task function are completed, they are popped out of the `call stack`.
     
