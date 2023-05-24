@@ -5,8 +5,8 @@ seoDescription: "forEach JavaScript provides a convenient and straightforward wa
 datePublished: Mon May 22 2023 02:00:39 GMT+0000 (Coordinated Universal Time)
 cuid: clhy7afl706v2g7nvaje1hs1i
 slug: foreach-javascript-a-comprehensive-guide
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684681890842/394ac7ab-5f9e-4e32-b5cf-e5a98722eb08.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1684683829995/49098dba-c564-4a30-8cfc-33f7b54fc4cf.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684956064300/e8dfd88e-b009-415e-a16d-88ea97d062d1.webp
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1684956150418/cb306e9f-d2d0-44b4-8826-0d9944f508aa.webp
 tags: tutorial, programming-blogs, javascript, web-development, programming-languages
 
 ---
@@ -117,7 +117,7 @@ Now that we have learned the syntax of the **forEach JavaScript**, let's explore
 
 ## Defining and passing callbacks to forEach
 
-![Defining and passing callbacks to forEach](https://cdn.hashnode.com/res/hashnode/image/upload/v1684686804373/ccbdd553-96c2-48b4-b36a-224014bab149.png align="center")
+![forEach JavaScript - A Comprehensive Guide(robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684956086196/32314a50-34fe-4a19-bd44-4915116fd481.webp align="center")
 
 To use the `forEach` method, you need to define and pass a callback function as its parameter. This callback function will be invoked for each element in the array.
 
