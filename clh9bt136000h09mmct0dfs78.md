@@ -5,8 +5,8 @@ seoDescription: "Javascript variables are named references to memory locations t
 datePublished: Thu May 04 2023 16:12:51 GMT+0000 (Coordinated Universal Time)
 cuid: clh9bt136000h09mmct0dfs78
 slug: javascript-variables-beginner-thinking
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670594832015/2W77XVLnC.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1683216518909/dd44d2ea-67d9-4bba-af7d-f252be4fa2f0.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684952007784/5b5d1011-1b5e-459a-9b62-845464699a98.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1684952293845/11b9c8c6-9a3c-4004-8781-5a5c626a2919.jpeg
 tags: variables, javascript, web-development, fundamentals, beginners
 
 ---
@@ -31,7 +31,7 @@ let's have a look at the computer memory.
 
 If you have a basic understanding of computer memory then you must know that Computer memory has millions of cells on it and every cell has its own address.
 
-![Computer memory - Variable Beginner Thinking in Javascript | Part - 1 (robiul.dev).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669532444900/LYMQxA0ah.png align="left")
+![javascript Variables Beginner Thinking (robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684952050726/05637dcb-66e9-4c08-a66a-eeef3ff5a894.jpeg align="center")
 
 In our program, if we want to store value to access it later throughout the program, we have to keep it somewhere in the computer memory and we will need a way to call that value whenever we need.  
 we could have done that using the memory address after storing the data in the memory.  
@@ -43,7 +43,7 @@ Variable gives us the simplest solution to handle it. We can simply create a var
 
 When we are creating a variable and assigning a value to it. behind the since the Compilers and interpreters store the data inside the memory and replace the symbolic names of **variables** with the real data location/memory address.
 
-![Assigning value in computer memory cell - Variable Beginner Thinking in Javascript | Part - 1 (robiul.dev).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669532908523/Cs5PSyu8H.png align="left")
+![javascript Variables Beginner Thinking (robiul.dev).jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1684952122668/b98658d6-7609-4b67-b215-dc350fdf01b9.jpeg align="center")
 
 That means our data is stored in memory and the variable is pointing to this memory location.
 
@@ -69,7 +69,7 @@ Think of these steps as
 * Putting something in this container.
     
 
-![variable as container - Variable Beginner Thinking in Javascript | Part - 1 (robiul.dev).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669539923138/EFg7IaK78.png align="left")
+![javascript Variables Beginner Thinking (robiul.dev).jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1684952241518/883c0dc6-3453-4b62-bf5f-f5071bb66d59.jpeg align="center")
 
 > **Note:** A Javascript variable is a container, not a value, this means that **variables** aren’t themselves values; they are a named container for values.
 
