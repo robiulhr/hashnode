@@ -6,8 +6,8 @@ datePublished: Fri May 12 2023 04:57:52 GMT+0000 (Coordinated Universal Time)
 cuid: clhk37thj000309lbgff23hrq
 slug: is-javascript-compiled-or-interpreted-language
 canonical: https://dev.to/robiulhr/is-javascript-compiled-or-interpreted-language-l20
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683866369515/38098a2e-113d-4304-85a3-2dc0ca51ff25.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1683867287691/112aaa76-b9e3-469f-87c5-84fda8fffc50.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684952659445/61ccf7f5-6385-487d-8744-342f1e89f7b4.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1684953245281/6eff7767-c712-4743-a0f7-80355fcc182a.jpeg
 tags: tutorial, programming-blogs, javascript, web-development, programming-languages
 
 ---
@@ -68,7 +68,7 @@ Overall, an interpreter provides a convenient way to execute code in a high-leve
 
 ## Compiler vs. Interpreter in a simple way
 
-![Compiler vs. Interpreter in a simple way](https://cdn.hashnode.com/res/hashnode/image/upload/v1683866538963/1e26e912-5688-4cd8-a37f-81421abde2fe.png align="center")
+![Is javascript compiled or interpreted language? (robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684952710909/910e240e-0162-421f-8e63-11e4707b2947.jpeg align="center")
 
 There is a lot of technical information about compilers and interpreters, so let's make it simple:
 
@@ -148,7 +148,7 @@ How does the JavaScript engine know about the `max` function before it reaches t
 
 So, **Is javascript compiled**?
 
-![is JavaScript compiled language?](https://cdn.hashnode.com/res/hashnode/image/upload/v1683866649748/c8192fd7-cc2d-465f-accd-ca65982f81f0.png align="center")
+![Is javascript compiled or interpreted language? (robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684952769795/48a35db3-67a8-4d3d-b278-f48ce9f7d2cc.jpeg align="center")
 
 Well, it's complicated. In the past, every programming language was fairly easy to categorize as either compiled or interpreted. However, with the modern approach of running source code, a sort of "in-between" area has been created.
 
@@ -215,7 +215,7 @@ In this approach, the code is compiled into machine code, which is then executed
 
 **JIT compiler** take a middle-ground approach, where they initially interpret the code and then selectively compile parts of it that are used repeatedly. As a result, the JIT compiler offers a balance of fast start-up time and improved performance.
 
-![JIT compilers work and why they're important](https://cdn.hashnode.com/res/hashnode/image/upload/v1683866702676/3c4bbfb0-1bb2-42a5-87cd-7a00cab636b6.png align="center")
+![Is javascript compiled or interpreted language? (robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684952812308/70ce41af-7fea-4210-a81b-e5e789272d14.jpeg align="center")
 
 To understand how JIT compilers work, let's consider an example:
 
@@ -274,7 +274,7 @@ function max(num1, num2){
 
 So, how does the JavaScript engine know about the `max` function before it reaches the declaration?
 
-![What is the story of hoisting?](https://cdn.hashnode.com/res/hashnode/image/upload/v1683962328366/1844e1c3-b754-42ce-a494-ad7959b9d13b.gif align="center")
+![Is javascript compiled or interpreted language? (robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684953203202/c5ad1241-6c18-490e-aa33-5aab132feee1.webp align="center")
 
 The answer lies in the Just-In-Time (`JIT`) compilation process that occurs behind the scenes when JavaScript code is executed in modern browsers.
 
