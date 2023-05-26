@@ -13,7 +13,7 @@ tags: tutorial, programming-blogs, javascript, asynchronous, web-development
 
 ## Introduction
 
-JavaScript is a powerful programming language that allows developers to create dynamic and interactive web applications. One important feature of JavaScript is the **Javascript setTimeout** function, which enables the execution of code after a specified delay.
+JavaScript is a powerful programming language that allows developers to create dynamic and interactive web applications. One important feature of JavaScript is the **Javascript setTimeout** function, which enables the **javascript wait**.
 
 Understanding how to effectively use `setTimeout` is crucial for controlling the timing and flow of your JavaScript programs. In this comprehensive guide, we will dive deep into the world of **Javascript setTimeout** and explore its various functionalities.
 
@@ -64,16 +64,16 @@ Take a look at the following code:
 function greetUser() {  
  console.log('Hello, user!') 
 }  
-setTimeout(greetUser, 2000)
+setTimeout(greetUser, 1000)
 ```
 
-In this example, we have a function called `greetUser` that simply logs a greeting message to the console. We want to delay the execution of this function by `2` seconds.
+In this example, we have a function called `greetUser` that simply logs a greeting message to the console. We want to delay the execution of this function by `1` seconds.
 
-To achieve this, we use the `setTimeout` function and pass the `greetUser` function as the first argument and `2000` as the second argument.
+To achieve this, we use the `setTimeout` function and pass the `greetUser` function as the first argument and `1000` as the second argument.
 
 And that's it!
 
-When you run this code, it will wait for `2` seconds and then print the greeting message `"Hello, user!"` to the console.
+When you run this code, it will make **javascript wait 1 second** and then print the greeting message `"Hello, user!"` to the console.
 
 ## Syntax and Parameters of setTimeout
 
@@ -113,21 +113,21 @@ function greetUser() {
   console.log('Hello, user!')
 }
 
-setTimeout(greetUser, 2000)
+setTimeout(greetUser, 1000)
 ```
 
 In this code snippet:
 
 1. We define a function called `greetUser` using the function keyword. This function is responsible for printing the greeting message to the console.
     
-2. We use the `setTimeout` function to schedule the execution of the `greetUser` function after a specified delay. The delay is set to `2000` milliseconds, which is equivalent to `2` seconds.
+2. We use the `setTimeout` function to schedule the execution of the `greetUser` function after a specified delay. The delay is set to `1000` milliseconds, which is equivalent to `1` seconds.
     
 3. The first argument passed to `setTimeout` is the function reference `greetUser`. This tells setTimeout which function to execute after the specified delay.
     
-4. The second argument `2000` represents the delay in milliseconds. It determines the time period before the code execution begins.
+4. The second argument `1000` represents the delay in milliseconds. It determines the time period before the code execution begins.
     
 
-By using `setTimeout`, we instruct JavaScript to wait for the specified delay of `2` seconds and then invoke the `greetUser` function. As a result, the greeting message `"Hello, user!"` will be printed on the console.
+By using `setTimeout`, we instruct **JavaScript wait 1 second** and then invoke the `greetUser` function. As a result, the greeting message `"Hello, user!"` will be printed on the console.
 
 ## Using the anonymous function as a callback
 
@@ -142,10 +142,10 @@ Here's an example:
 ```javascript
 setTimeout(function () {  
  console.log('This code executes after the delay') 
-}, 2000)
+}, 1000)
 ```
 
-In this case, the anonymous function serves as the callback. It logs a message to the console after a delay of `2000` milliseconds (or `2` seconds).
+In this case, the anonymous function serves as the callback. It logs a message to the console after a delay of `1000` milliseconds (or `1` seconds).
 
 You can replace the `console.log` statement with any code you want to execute after the delay. Using anonymous functions as callbacks in `setTimeout` provides flexibility and allows you to define and execute code inline without the need for separate function declarations.
 
@@ -160,10 +160,10 @@ function greet(name) {
   console.log('Hello, ' + name + '!') 
 }  
 
-setTimeout(greet, 3000, 'John')
+setTimeout(greet, 5000, 'John')
 ```
 
-In this example, the greet function is scheduled to execute after a delay of `3000` milliseconds (`3` seconds), and the argument `John` is passed as the name parameter.
+In this example, the greet function is scheduled to **wait 5 seconds** (`5000` milliseconds), and the argument `John` is passed as the name parameter.
 
 You can adjust the delay and the argument values according to your specific use case.
 
@@ -187,7 +187,7 @@ function processArgs() {
   }
 }
 
-setTimeout(processArgs, 2000, "apple", "banana", "cherry");
+setTimeout(processArgs, 1000, "apple", "banana", "cherry");
 ```
 
 In this example, the `processArgs` function prints each argument along with its corresponding index to the console. The output will be:
@@ -277,7 +277,7 @@ Let's break it down step by step from a beginner's perspective:
     
 * While the timer is running, the JavaScript engine continues executing other code if there is any. It doesn't wait for the timer to expire before moving forward.
     
-* After the specified time interval (e.g., 3 seconds) elapses, the timer expires, and the callback function provided to `setTimeout` is moved from the Web API to the `callback queue`. The callback queue holds the functions that are ready to be executed.
+* After the specified time interval (e.g., **javascript wait 5 seconds**) elapses, the timer expires, and the callback function provided to `setTimeout` is moved from the Web API to the `callback queue`. The callback queue holds the functions that are ready to be executed.
     
 * The `Event Loop` is responsible for continuously monitoring both the `call stack` and the `callback queue`. It checks if the call stack is empty.
     
@@ -290,10 +290,10 @@ Let's consider an example to better understand this process:
 function task() {   
   console.log('setTimeout Demo!') 
 }  
-setTimeout(task, 3000)
+setTimeout(task, 5000)
 ```
 
-In this example, the task function is scheduled to execute after a delay of `3000` milliseconds (3 seconds).
+In this example, the task function is scheduled to execute after **javascript wait 5 seconds** (`5000` milliseconds).
 
 Here's how it unfolds:
 
@@ -355,7 +355,7 @@ To overcome this issue, there are a few solutions you can employ:
 ```javascript
 setTimeout(function () { 
     myArray.myMethod() 
-}, 2000) // prints "zero,one,two" after 2 seconds
+}, 1000) // prints "zero,one,two" after 1 seconds
 
 setTimeout(function () { 
    myArray.myMethod('1') 
@@ -375,7 +375,7 @@ setTimeout(function () {
     
     setTimeout(() => {
      myArray.myMethod() 
-    }, 2000) // prints "zero,one,two" after 2 seconds 
+    }, 1000) // prints "zero,one,two" after 1 seconds 
     
     setTimeout(() => {
      myArray.myMethod('1') 
@@ -391,7 +391,7 @@ setTimeout(function () {
     ```javascript
     setTimeout(() => {
       myArray.myMethod()
-    }, 2000) // prints "zero,one,two" after 2 seconds
+    }, 1000) // prints "zero,one,two" after 1 seconds
     
     setTimeout(() => {
       myArray.myMethod('1')
