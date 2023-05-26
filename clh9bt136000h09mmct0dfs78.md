@@ -73,7 +73,7 @@ Think of these steps as
 
 > **Note:** A Javascript variable is a container, not a value, this means that **variables** aren’t themselves values; they are a named container for values.
 
-## Declaring Variables
+## Variable Declaration
 
 Before you use a variable in a JavaScript program, you must create it, we call this declaring a variable.
 
@@ -111,11 +111,11 @@ let birthYear, address;
 
 ## Naming Variables
 
-Not only in JavaScript but also, in all other languages **variables** must be identified with unique names following some rules and regulations. These unique names are called identifiers. These Identifiers or names can be short (like \`a\`, \`b\`, and \`c\`) or more descriptive (\`age\`, \`name\`, \`userName\`).
+Not only in JavaScript but also, in all other languages variables must be identified with unique names following some rules and regulations which is called **naming variables**. These unique names are called identifiers. These Identifiers or names can be short (like \`a\`, \`b\`, and \`c\`) or more descriptive (\`age\`, \`name\`, \`userName\`).
 
-### Rules for variable Name
+### Javascript variable name rules
 
-There are some general rules to follow when we are choosing a name (unique identifiers) for the variable.
+There are some general rules to follow when we are **naming variables** (unique identifiers) for the variable.
 
 Here are the rules below:
 
@@ -179,7 +179,7 @@ let function           //  Don't use reserved keywords
 
 Giving a good name to the variable is one of the most important and complex skills in programming. Proper descriptive variable names can create a good impression for a programmer in the viewer's eyes.
 
-In a real project, most of the time a programmer spends modifying and extending an existing code base rather than writing something completely new. When we return to the code after doing something else for a while or maybe for a long period of time, it’s much easier to get back into a flow for those codes that is well-labeled. Or, in other words, when the **variables** have been declared with good names.
+In a real project, most of the time a programmer spends modifying and extending an existing code base rather than writing something completely new. When we return to the code after doing something else for a while or maybe for a long period of time, it’s much easier to get back into a flow for those codes that is well-labeled. Or, in other words, when the variables have been declared with good names.
 
 So, Please spend time thinking about the right name when you are declaring a variable. Doing so will make you benefited in the future.
 
@@ -212,9 +212,9 @@ console.log(age);           // undefined
 console.log(birthYear);     // undefined
 ```
 
-## Undeclared/Unassigned variable
+## Undeclared variable
 
-Suppose you want to use a variable in a statement, but you haven't declared this variable yet. In this case, your code will throw a \`ReferenceError\` showing that the variable is not defined. In short, if we want to access an undeclared variable, the code will throw a runtime error.
+Suppose you want to use a variable in a statement, but you haven't declared this variable yet. In this case, your code will throw a \`ReferenceError\` showing that the variable is not defined. In short, if we want to access an Unassigned or **undeclared variable**, the code will throw a runtime error.
 
 Example:
 
@@ -226,11 +226,11 @@ Try running the above line in the browser console.
 
 In the real program, You should never try accessing a variable without declaring it.
 
-> Note: Don't get confused with the undefined and Unassigned/Undeclared variables — they are very different things. An undefined variable is a variable that has been declared in the program but has not been initialized with a value. In contrast, an undeclared variable is a variable that has not been declared yet.
+> Note: Don't get confused with the undefined and Unassigned/**Undeclared variable** — they are very different things. An undefined variable is a variable that has been declared in the program but has not been initialized with a value. In contrast, an undeclared variable is a variable that has not been declared yet.
 
-## Assigning value to the variable
+## Variable Assignment
 
-After the declaration has been completed, we can use the equal(\`=\`) sign to assign a value to the variable:
+After the declaration has been completed, we can use the equal(\`=\`) sign for **Variable Assignment**:
 
 Example:
 
@@ -253,7 +253,7 @@ First It calculates the value of `x + 10` and assigns the result to variable \`x
 
 > Note: in JavaScript, the "equal to" operator is written like `==`.
 
-Also, the variable declaration and initialization can be combined. that means variable initialization can be done in the declaration:
+Also, the **variable declaration** and initialization can be combined. that means variable initialization can be done in the declaration:
 
 ```javascript
 var greetings = "Hello";
@@ -268,7 +268,7 @@ var greetings = "Hello",
       name = "Robiul";
 ```
 
-> Note: we can assign a variable value from user input
+> Note: we can do **Variable Assignment** from user input
 > 
 > ```javascript
 > // Gets user input
@@ -278,11 +278,11 @@ var greetings = "Hello",
 > console.log(age)
 > ```
 
-## Changing/Updating/Re-assigning the Value of a Variable.
+## Changing Variable
 
 The meaning of the word ‘variable’ is anything that can vary. That means once the initialization is finished we can change or update the value of the variable later on in the program if required.
 
-It is similar to re-initializing the variable. We can update/change the value by just typing the name of the variable followed by an equals sign(\`=\`) and then followed by the new value we want it to store.
+It is similar to re-initializing the variable. We can do Updating or Re-assigning or **Changing Variable** by just typing the name of the variable followed by an equals sign(\`=\`) and then followed by the new value we want it to store.
 
 ```javascript
 var greetings = "Hello";
@@ -496,7 +496,7 @@ Thus, variable helps us to write optimized, developer-friendly, and easy-to-unde
     
 * After the declaration, we can use the equal(\`=\`) sign to assign value to the variable
     
-* You can combine variable declaration with variable initialization. that means initialization can be done in the declaration.
+* You can combine **variable declaration** with variable initialization. that means initialization can be done in the declaration.
     
 * Once a variable has been initialized with a value, you can change (or update) that value anytime and anywhere within its scope by giving it a different value.
     
