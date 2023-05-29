@@ -23,7 +23,7 @@ So, let's get started!
 
 ## **Javascript variables**
 
-In JavaScript, a variable is a named reference to a memory location that can hold different types of data, such as numbers, strings, booleans, objects, or functions. To access or modify the data stored in a variable, we use its name.
+In JavaScript, a variable is a named reference to a memory location that can hold different types of data, such as numbers, strings, booleans, objects, or functions. To access variable or modify the data stored in a variable, we use its name.
 
 It's a little confusing, right?
 
@@ -49,7 +49,7 @@ That means our data is stored in memory and the variable is pointing to this mem
 
 > **Note:** In real scenarios, memory allocation is not as simple as I discussed here. also, Primitive type and Reference type values are treated differently when assigning them to **Javascript variables**. but for this post, I have avoided the advanced things and kept it simple so you can get an overall idea of how things work behind the scenes.
 
-If you are still confused with it, simply think of **variables** as named containers that hold information and can be referred to the data simply by naming the container.
+If you are still confused about **what are variables in javascript**, simply think of variables as named containers that hold information and can be referred to the data simply by naming the container.
 
 That means,
 
@@ -75,7 +75,7 @@ Think of these steps as
 
 ## Variable Declaration
 
-Before you use a variable in a JavaScript program, you must create it, we call this declaring a variable.
+Before you use a variable in a JavaScript program, you must create or define variable, we call this declaring a variable.
 
 we can Declare a JavaScript Variable using `var` or \`let\` :
 
@@ -84,7 +84,7 @@ var name;
 let age;
 ```
 
-Here we are creating two **variables**, one using var and one using let.
+Here we are creating two variables, one using var and one using let.
 
 var and let are the keywords that tell JavaScript you’re declaring a variable.
 
@@ -94,7 +94,7 @@ In Javascript, Semicolons(;) are totally optional (unless you want to have multi
 
 > Note: Though Semicolons(;) are optional in javascript, there are many languages where Semicolon(;) is a big factor. In those languages you must end the line using a semicolon otherwise will occur an error to your program.
 
-You can also declare multiple variables with the same `var` or \`let\` keyword:
+In **javascript multiple variable declaration** can be done with the same `var` or \`let\` keyword:
 
 ```javascript
 var name, age;
@@ -124,7 +124,7 @@ Here are the rules below:
 
 > Note: In Javascript '\_' and '$' are just like letters. They don't have any special meaning.
 
-* Variable names must be started with either a letter, an underscore \`\_\`, or the dollar sign `$`. It is not allowed to start variable names using numbers (0-9).
+* Variable names must be started with either a letter, an underscore \`\_\`, or the dollar sign `$` in javascript. It is not allowed to start variable names using numbers (0-9).
     
 * JavaScript Names/identifiers are case sensitive (Variables named \`apple\` and \`APPLE\` are two different variables.).
     
