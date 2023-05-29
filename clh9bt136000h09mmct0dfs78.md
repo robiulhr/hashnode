@@ -73,11 +73,11 @@ Think of these steps as
 
 > **Note:** A Javascript variable is a container, not a value, this means that **variables** aren’t themselves values; they are a named container for values.
 
-## Variable Declaration
+## Javascript Variable Declaration
 
 Before you use a variable in a JavaScript program, you must create or define variable, we call this declaring a variable.
 
-we can Declare a JavaScript Variable using `var` or \`let\` :
+we can Declare a JavaScript Variable using `var` or `let` :
 
 ```javascript
 var name; 
@@ -94,7 +94,7 @@ In Javascript, Semicolons(;) are totally optional (unless you want to have multi
 
 > Note: Though Semicolons(;) are optional in javascript, there are many languages where Semicolon(;) is a big factor. In those languages you must end the line using a semicolon otherwise will occur an error to your program.
 
-In **javascript multiple variable declaration** can be done with the same `var` or \`let\` keyword:
+In **javascript multiple variable declaration** can be done with the same `var` or `let` keyword:
 
 ```javascript
 var name, age;
@@ -111,7 +111,7 @@ let birthYear, address;
 
 ## Naming Variables
 
-Not only in JavaScript but also, in all other languages variables must be identified with unique names following some rules and regulations which is called **naming variables**. These unique names are called identifiers. These Identifiers or names can be short (like \`a\`, \`b\`, and \`c\`) or more descriptive (\`age\`, \`name\`, \`userName\`).
+Not only in JavaScript but also, in all other languages variables must be identified with unique names following some rules and regulations which is called **naming variables**. These unique names are called identifiers. These Identifiers or names can be short (like `a`, `b`, and `c`) or more descriptive (`age`, `name`, `userName`).
 
 ### Javascript variable name rules
 
@@ -119,14 +119,14 @@ There are some general rules to follow when we are **naming variables** (unique 
 
 Here are the rules below:
 
-* Names can contain letters, Number digits(0-9), underscores \`\_\`, and dollar signs \`$\` but Spaces and special symbols/punctuation characters (like @, !, #, etc.) are not allowed to be used in the variable's name.
+* Names can contain letters, Number digits(0-9), underscores `_`, and dollar signs `$` but Spaces and special symbols/punctuation characters (like `@`, `!`, `#`, etc.) are not allowed to be used in the variable's name.
     
 
 > Note: In Javascript '\_' and '$' are just like letters. They don't have any special meaning.
 
-* Variable names must be started with either a letter, an underscore \`\_\`, or the dollar sign `$` in javascript. It is not allowed to start variable names using numbers (0-9).
+* Variable names must be started with either a letter, an underscore (`_`), or the dollar sign `$` in javascript. It is not allowed to start variable names using numbers (0-9).
     
-* JavaScript Names/identifiers are case sensitive (Variables named \`apple\` and \`APPLE\` are two different variables.).
+* JavaScript Names/identifiers are case sensitive (Variables named `apple` and `APPLE` are two different variables.).
     
 * There are some reserved words, which cannot be used as variable names in your program because they are used by the language itself.
     
@@ -140,13 +140,11 @@ let var = 5;   //  Uncaught SyntaxError: Unexpected token 'var'
 let function = 5; // Uncaught SyntaxError: Unexpected token 'function'
 ```
 
-* In JavaScript, When the variable name contains multiple words, it is generally written in camelCase.
+* In JavaScript, When the variable name contains multiple words, it is generally written in camelCase.  
+    That is: words go one after another, every word except the first one starting with a capital letter.
     
-
-That is: words go one after another, every word except the first one starting with a capital letter.
-
-`For example, firstName, lastName, birthYear, etc.`
-
+    `For example, firstName, lastName, birthYear, etc.`
+    
 * It is possible to use almost any language in a variable name, but not recommended. We should use English in variable names even if we’re writing a small script. so that if people from other countries need to read it they can read it. Because we will write code for global developers not only for our region.
     
 
@@ -175,6 +173,17 @@ let one variable   //  Don't use spaces
 let function           //  Don't use reserved keywords
 ```
 
+**Task:** Which of the following is a valid JavaScript variable name?
+
+1. `123variable`
+    
+2. `var-name`
+    
+3. `_variable`
+    
+
+Write your answer in the comment section.
+
 ### Naming variable Good practices
 
 Giving a good name to the variable is one of the most important and complex skills in programming. Proper descriptive variable names can create a good impression for a programmer in the viewer's eyes.
@@ -192,18 +201,18 @@ So, Please spend time thinking about the right name when you are declaring a var
 
 * Since JavaScript is case-sensitive, apple and Apple are two different identifiers. But we should not use both of them in our program. Because this will occur confusion in the long term.
     
-* The best way to create a variable is to use multiple words in camelCase. (e.g., \`myVarName\`).
+* The best way to create a variable is to use multiple words in camelCase. (e.g., `myVarName`).
     
 
 ## Undefined value of a variable
 
 When we declare a variable without assigning a value to it will have the value `undefined`.
 
-It's the default behavior of javascript. Though this container should be empty, it is not. It still contains a value that is \`undefined\`.
+It's the default behavior of javascript. Though this container should be empty, it is not. It still contains a value that is `undefined`.
 
 > Note: `undefined` is one type of data in javascript. we will see about `undefined` and other data types in any other blog in detail.
 
-If you want to see their value, you can do that by simply doing \`console.log()\` in your web browser's console the output will be \`undefined\`.
+If you want to see their value, you can do that by simply doing `console.log()` in your web browser's console the output will be `undefined`.
 
 ```javascript
 let name, age, birthYear;
@@ -214,7 +223,7 @@ console.log(birthYear);     // undefined
 
 ## Undeclared variable
 
-Suppose you want to use a variable in a statement, but you haven't declared this variable yet. In this case, your code will throw a \`ReferenceError\` showing that the variable is not defined. In short, if we want to access an Unassigned or **undeclared variable**, the code will throw a runtime error.
+Suppose you want to use a variable in a statement, but you haven't declared this variable yet. In this case, your code will throw a `ReferenceError` showing that the variable is not defined. In short, if we want to access an Unassigned or **undeclared variable**, the code will throw a runtime error.
 
 Example:
 
@@ -230,7 +239,7 @@ In the real program, You should never try accessing a variable without declaring
 
 ## Variable Assignment
 
-After the declaration has been completed, we can use the equal(\`=\`) sign for **Variable Assignment**:
+After the declaration has been completed, we can use the equal(`=`) sign for **Variable Assignment**:
 
 Example:
 
@@ -241,7 +250,7 @@ age = 22;
 
 where the `age` is the name of the variable and it is assigned a value of `22`.
 
-> Note: In JavaScript, the equal sign (\`=\`) is an "assignment" operator, not an "equal to" operator like in algebra. Though the following does not make sense in algebra:
+> Note: In JavaScript, the equal sign (`=`) is an `assignment operator`, not an `equal to` operator like in algebra. Though the following does not make sense in algebra:
 > 
 > ```javascript
 > x = x + 10;
@@ -249,11 +258,11 @@ where the `age` is the name of the variable and it is assigned a value of `22`.
 
 But In JavaScript, it makes perfect sense:
 
-First It calculates the value of `x + 10` and assigns the result to variable \`x\`. In simple words, The value of `x` is incremented by `10`.
+First It calculates the value of `x + 10` and assigns the result to variable `x`. In simple words, The value of `x` is incremented by `10`.
 
 > Note: in JavaScript, the "equal to" operator is written like `==`.
 
-Also, the **variable declaration** and initialization can be combined. that means variable initialization can be done in the declaration:
+Also, the **Javascript variable declaration** and initialization can be combined. that means variable initialization can be done in the declaration:
 
 ```javascript
 var greetings = "Hello";
@@ -282,7 +291,7 @@ var greetings = "Hello",
 
 The meaning of the word ‘variable’ is anything that can vary. That means once the initialization is finished we can change or update the value of the variable later on in the program if required.
 
-It is similar to re-initializing the variable. We can do Updating or Re-assigning or **Changing Variable** by just typing the name of the variable followed by an equals sign(\`=\`) and then followed by the new value we want it to store.
+It is similar to re-initializing the variable. We can do Updating or Re-assigning or **Changing Variable** by just typing the name of the variable followed by an equals sign(`=`) and then followed by the new value we want it to store.
 
 ```javascript
 var greetings = "Hello";
@@ -358,7 +367,7 @@ var y = x + 102;
 console.log(y)  // 202
 ```
 
-* you can do all kinds of arithmetic operations with **JavaScript variables**, using operators like \`=\`, \`+\`, \`\*\`, and more. :
+* you can do all kinds of arithmetic operations with **JavaScript variables**, using operators like `=`, `+`, `*`, and more. :
     
 
 ```javascript
@@ -494,7 +503,7 @@ Thus, variable helps us to write optimized, developer-friendly, and easy-to-unde
     
 * A variable that has not been declared yet is called an undeclared.
     
-* After the declaration, we can use the equal(\`=\`) sign to assign value to the variable
+* After the declaration, we can use the equal(`=`) sign to assign value to the variable
     
 * You can combine **variable declaration** with variable initialization. that means initialization can be done in the declaration.
     
@@ -506,7 +515,7 @@ Thus, variable helps us to write optimized, developer-friendly, and easy-to-unde
     
 * You can use a variable when declaring other variables.
     
-* You can do arithmetic with **JavaScript variables**, using operators like \`=\` and \`+\`.
+* You can do arithmetic with **JavaScript variables**, using operators like `=` and `+`.
     
 * You can also add strings, but strings will be concatenated.
     
