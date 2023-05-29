@@ -94,7 +94,7 @@ Let's break down the different components:
 * Additional parameters, such as `param1`, `param2`, and so on, are optional. You can use them to pass arguments to the function specified in the first parameter.
     
 
-These parameters allow you to customize the behavior of the function when it is executed.
+These **setTimeout parameters** allow you to customize the behavior of the function when it is executed.
 
 The `setTimeout()` returns a `timeoutID` which is a positive integer identifying the timer created as a result of calling the method. The `timeoutID` can be used to cancel timeout by passing it to the `clearTimeout()` method which we will discuss in another article.
 
@@ -151,7 +151,7 @@ You can replace the `console.log` statement with any code you want to execute af
 
 ## Passing arguments to the callback function
 
-You can easily pass arguments to the callback function when using `setTimeout`.
+In the setTimeout callback function, You can easily pass parameters or arguments.
 
 Suppose you have a function that accepts parameters, and you want to provide specific values to those parameters when the function is executed after the delay:
 
