@@ -219,13 +219,15 @@ By incorporating these checks, we ensure proper handling of empty strings, inclu
 
 Until now, we have explored three ways to check for an empty string. However, there is an advanced approach introduced in ECMAScript 2020 that can help reduce the amount of code needed.
 
-The nullish coalescing operator (`??`) provides a concise way to check if a string is empty or nullish:
+The nullish coalescing operator (`??`) provides a concise way to check if a string is empty or bullish:
 
 ```javascript
 function isEmptyString(str) {
-  return str ?? '' === '';
+  return (str ?? '') === '';
 }
 ```
+
+In the code above, the nullish coalescing operator (`??`) checks if the value of `str` is either `null` or `undefined`. If it is, the operator returns an empty string `''`. We then compare the result with an empty string `''` to determine if the string is empty or nullish.
 
 By using the nullish coalescing operator, we can handle the scenario where the string is either `null` or `undefined`.
 
