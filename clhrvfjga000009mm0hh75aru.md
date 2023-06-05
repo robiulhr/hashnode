@@ -299,22 +299,22 @@ Here's how it unfolds:
 
 * The `setTimeout` function is added to the `call stack`, creating a timer in the `Web API`.
     
-    ![Javascript setTimeout - All you need to know(robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684955488313/f2fc07ec-c676-4241-9e40-0b0dbba4ec6a.webp align="center")
+    ![How setTimeout works behind the scenes part_1 (robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684955488313/f2fc07ec-c676-4241-9e40-0b0dbba4ec6a.webp align="center")
     
     The timer starts counting down, and the JavaScript engine proceeds to execute other code if present.
     
 * After approximately 3 seconds, the timer expires, and the task function is moved  
     from the `Web API` to the `callback queue`.
     
-    ![Javascript setTimeout - All you need to know(robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684955557529/14e373a1-6632-47aa-aba7-50b6dfb18ca9.webp align="center")
+    ![How setTimeout works behind the scenes part_2 (robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684955557529/14e373a1-6632-47aa-aba7-50b6dfb18ca9.webp align="center")
     
 * Since the `call stack` is empty, the event loop removes the task function from the `callback queue`, pushes it onto the call stack, and executes it.
     
-    ![Javascript setTimeout - All you need to know(robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684955594575/1755b53a-6834-4530-9187-54eb4f3a3f43.webp align="center")
+    ![How setTimeout works behind the scenes part_3 (robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684955594575/1755b53a-6834-4530-9187-54eb4f3a3f43.webp align="center")
     
 * Inside the task function, the `console.log()` statement is executed, creating a new function execution context.
     
-    ![Javascript setTimeout - All you need to know(robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684955639855/8538b044-c497-48b5-877a-cfa0ca2514e7.webp align="center")
+    ![How setTimeout works behind the scenes part_4 (robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684955639855/8538b044-c497-48b5-877a-cfa0ca2514e7.webp align="center")
     
 * Finally, when the `console.log()` and task function are completed, they are popped out of the `call stack`.
     
