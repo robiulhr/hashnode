@@ -117,7 +117,7 @@ Now that we have learned the syntax of the **forEach JavaScript**, let's explore
 
 ## Defining and passing callbacks to forEach
 
-![forEach JavaScript - A Comprehensive Guide(robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684956086196/32314a50-34fe-4a19-bd44-4915116fd481.webp align="center")
+![Defining and passing callbacks to forEach (robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684956086196/32314a50-34fe-4a19-bd44-4915116fd481.webp align="center")
 
 To use the `forEach` method, you need to define and pass a callback function as its parameter. This callback function will be invoked for each element in the array.
 
