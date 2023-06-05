@@ -27,7 +27,7 @@ So if you're ready to master the art of **JavaScript loop**, buckle up and let's
 
 ## Choosing the Right Type of Loop
 
-![JavaScript Loop Best Practices for Optimal Performance (robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684954647619/e4713431-0855-4068-8563-579b4224fedf.webp align="center")
+![Choosing the Right Type of Loop (robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684954647619/e4713431-0855-4068-8563-579b4224fedf.webp align="center")
 
 When you are writing a **JavaScript Loop**, the First thing you need to do is choose the right type of loop. JavaScript offers several types of loops, including `for loop`, `while loop`, and `do-while loop`, each with its own strengths and weaknesses. Depending on the specific requirements of your code, one type of loop may be more efficient or more readable than another.
 
@@ -120,7 +120,7 @@ let's move to the next thing we need to think of when writing a loop and this is
 
 ## Optimizing The Loop Performance
 
-![JavaScript Loop Best Practices for Optimal Performance (robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684954683902/c97db4f7-6717-4737-8bc3-5d97f8ee1e9c.gif align="center")
+![Optimizing The Loop Performance (robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684954683902/c97db4f7-6717-4737-8bc3-5d97f8ee1e9c.gif align="center")
 
 In normal situations, it may not create a big change in our code performance but when we will work with a large number of data Optimizing the loop performance will become one of the most important things. Because Loop performance can have a significant impact on the overall performance of your JavaScript code.
 
@@ -314,7 +314,7 @@ By avoiding these **common mistakes**, you can ensure that your loops are runnin
 
 ## Use Recursion if needed
 
-![JavaScript Loop Best Practices for Optimal Performance (robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684954727764/7d50f193-7fba-404f-a157-0fc8656d3dbb.webp align="center")
+![Use Recursion if needed (robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684954727764/7d50f193-7fba-404f-a157-0fc8656d3dbb.webp align="center")
 
 While loops are powerful, sometimes recursion can be an even more elegant solution.
 
