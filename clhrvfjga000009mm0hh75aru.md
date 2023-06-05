@@ -1,7 +1,7 @@
 ---
 title: "Javascript setTimeout - All you need to know"
 seoTitle: "Javascript setTimeout - All you need to know"
-seoDescription: "Suppose you want to declare a function but instead of calling it immediately, you want to call it after a certain period of time. This is where setTimeout.."
+seoDescription: "One important feature of JavaScript is the Javascript setTimeout function, which enables the javascript to wait. Suppose you want to declare a function b..."
 datePublished: Wed May 17 2023 15:42:05 GMT+0000 (Coordinated Universal Time)
 cuid: clhrvfjga000009mm0hh75aru
 slug: javascript-settimeout-all-you-need-to-know
