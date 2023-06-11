@@ -54,7 +54,7 @@ There are a few commonly used techniques for achieving this.
 
 Let's explore them:
 
-### Using Object Destructuring and Property Assignment:
+### Using Object Destructuring and Property Assignment
 
 One way to rename an object key in an immutable approach is by utilizing [object destructuring](https://medium.com/javascript-in-plain-english/level-up-your-code-in-5-ways-using-destructuring-assignment-1e4cbbe96a99) and property assignment. This technique involves extracting the value associated with the existing key and assigning it to a new key without altering the original object.
 
