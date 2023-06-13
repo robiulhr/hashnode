@@ -55,7 +55,7 @@ To address this issue, it is important to check if the search query is empty bef
 
 ## Method 1: Using the Length Property
 
-The simplest way of checking if a string is empty in JavaScript is the `length` property. By comparing the length of a string to zero, we can determine if it is empty or not.
+The simplest way of checking if a string is empty in JavaScript is the [`length`](https://www.w3schools.com/jsref/jsref_length_string.asp) property. By comparing the length of a string to zero, we can determine if it is empty or not.
 
 ```javascript
 let myStr = ''
@@ -83,9 +83,9 @@ if (myStr.trim().length === 0) {
 
 In this case, the initial check would erroneously classify the string as non-empty due to the presence of whitespace.
 
-However, by applying the `trim()` method, we ensure that whitespace is eliminated before checking the length, and correctly identifying an empty string.
+However, by applying the [`trim()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim) method, we ensure that whitespace is eliminated before checking the length, and correctly identifying an empty string.
 
-It's important to note that the `length` property does not work for `null` or `undefined` values, and attempting to access the length property of a `null` or `undefined` value will throw an error.
+It's important to note that the `length` property does not work for [`null`](https://www.programiz.com/javascript/null-undefined) or [`undefined`](https://www.programiz.com/javascript/null-undefined) values, and attempting to access the length property of a `null` or `undefined` value will throw an error.
 
 ![the length property does not work for null or undefined values](https://cdn.hashnode.com/res/hashnode/image/upload/v1685724626793/74b2095a-d063-4a1e-a82a-35899cdef507.webp align="center")
 
@@ -103,7 +103,7 @@ if (typeof myStr === 'string' && myStr.trim().length === 0) {
 
 This code first verifies that the value is a string using the `typeof` operator before applying the `trim()` method and checking the `length`. This approach prevents errors when dealing with `null` or `undefined` values.
 
-To handle all of these `null`, `undefined`, and empty string at the same time, we can combine the conditions using the logical (`||`) OR operator:
+To handle all of these `null`, `undefined`, and empty string at the same time, we can combine the conditions using the logical (`||`) [OR operator](https://www.geeksforgeeks.org/or-logical-operator-in-javascript/):
 
 ```javascript
 let myStr = null;
@@ -219,7 +219,7 @@ By incorporating these checks, we ensure proper handling of empty strings, inclu
 
 Until now, we have explored three ways to check for an empty string. However, there is an advanced approach introduced in ECMAScript 2020 that can help reduce the amount of code needed.
 
-The nullish coalescing operator (`??`) provides a concise way to check if a string is empty or bullish:
+The [nullish coalescing operator](https://javascript.info/nullish-coalescing-operator) (`??`) provides a concise way to check if a string is empty or bullish:
 
 ```javascript
 function isEmptyString(str) {
@@ -231,7 +231,7 @@ In the code above, the nullish coalescing operator (`??`) checks if the value of
 
 By using the nullish coalescing operator, we can handle the scenario where the string is either `null` or `undefined`.
 
-Additionally, we can leverage the optional chaining (`?.`) operator to handle `null` and `undefined` values:
+Additionally, we can leverage the [optional chaining](https://www.freecodecamp.org/news/javascript-optional-chaining/) (`?.`) operator to handle `null` and `undefined` values:
 
 ```javascript
 const str = ' ';
