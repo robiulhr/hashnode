@@ -48,7 +48,9 @@ for (let i = 0; i < numbers.length; i++) {
 console.log(sum) // Output: 15
 ```
 
-Here, the `for loop` is used to iterate over each element in the numbers array and add its value to the `sum` variable. Next `While loop`, it is useful when you want to repeatedly execute a block of code until a certain condition is met.
+Here, the `for loop` is used to iterate over each element in the numbers array and add its value to the `sum` variable.
+
+Next `While loop`, it is useful when you want to repeatedly execute a block of code until a certain condition is met.
 
 For example, imagine you want to generate random numbers between `0` and `1` until you get a number greater than `0.5`:
 
