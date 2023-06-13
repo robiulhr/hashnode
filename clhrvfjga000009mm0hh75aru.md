@@ -1,10 +1,10 @@
 ---
-title: "Javascript setTimeout - All you need to know"
+title: "Javascript setTimeout method - All you need to know"
 seoTitle: "Javascript setTimeout - All you need to know"
 seoDescription: "One important feature of JavaScript is the Javascript setTimeout function, which enables the javascript to wait. Suppose you want to declare a function b..."
 datePublished: Wed May 17 2023 15:42:05 GMT+0000 (Coordinated Universal Time)
 cuid: clhrvfjga000009mm0hh75aru
-slug: javascript-settimeout-all-you-need-to-know
+slug: javascript-settimeout-method-all-you-need-to-know
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684955248096/14313ed5-db0e-4736-8843-fc4905a3cb14.webp
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1684955673555/d12d8469-7f08-449d-ba3f-4d6b6ff4c6c1.webp
 tags: tutorial, programming-blogs, javascript, asynchronous, web-development
@@ -13,9 +13,9 @@ tags: tutorial, programming-blogs, javascript, asynchronous, web-development
 
 ## Introduction
 
-JavaScript is a powerful programming language that allows developers to create dynamic and interactive web applications. One important feature of JavaScript is the **Javascript setTimeout** function, which enables the **javascript wait**.
+JavaScript is a powerful programming language that allows developers to create dynamic and interactive web applications. One important feature of JavaScript is the Javascript [setTimeout](https://www.w3schools.com/jsref/met_win_settimeout.asp) method function, which enables the **javascript wait**.
 
-Understanding how to effectively use `setTimeout` is crucial for controlling the timing and flow of your JavaScript programs. In this comprehensive guide, we will dive deep into the world of **Javascript setTimeout** and explore its various functionalities.
+Understanding how to effectively use `setTimeout` is crucial for controlling the timing and flow of your JavaScript programs. In this comprehensive guide, we will dive deep into the world of Javascript setTimeout method and explore its various functionalities.
 
 Whether you are a beginner or an experienced developer, this article will provide you with all the knowledge you need to harness the full potential of `setTimeout` in your JavaScript projects.
 
@@ -234,7 +234,7 @@ By passing a function instead of a string, you can maintain better control over 
 
 ## Maximum delay value
 
-The maximum `delay` value that can be set in the JavaScript `setTimeout` function depends on the JavaScript implementation and the environment in which it is running.
+The maximum `delay` value that can be set in the Javascript setTimeout method function depends on the JavaScript implementation and the environment in which it is running.
 
 In most modern browsers and JavaScript environments, the maximum delay value is approximately `2^31 - 1` milliseconds, which is roughly `24.85` days. If you attempt to set a delay value greater than this maximum, it will be automatically clamped to the maximum allowable value.
 
@@ -255,9 +255,9 @@ The best approach for scheduling a task that exceeds the maximum delay value wil
 
 ## How setTimeout works behind the scenes
 
-So far we have discussed so many things about **Javascript setTimeout**.
+So far we have discussed so many things about Javascript setTimeout method.
 
-But, To fully grasp the concept of **JavaScript setTimeout**, it's crucial to understand its underlying mechanism and how it works behind the scenes.
+But, To fully grasp the concept of Javascript setTimeout method, it's crucial to understand its underlying mechanism and how it works behind the scenes.
 
 Now let's understand how this works behind the scenes.
 
