@@ -29,7 +29,7 @@ So if you're ready to master the art of **JavaScript loop**, buckle up and let's
 
 ![Choosing the Right Type of Loop (robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684954647619/e4713431-0855-4068-8563-579b4224fedf.webp align="center")
 
-When you are writing a **JavaScript Loop**, the First thing you need to do is choose the right type of loop. JavaScript offers several types of loops, including `for loop`, `while loop`, and `do-while loop`, each with its own strengths and weaknesses. Depending on the specific requirements of your code, one type of loop may be more efficient or more readable than another.
+When you are writing a **JavaScript Loop**, the First thing you need to do is choose the right type of loop. JavaScript offers several types of loops, including [`for loop`](https://www.w3schools.com/js/js_loop_for.asp), [`while loop`](https://www.w3schools.com/js/js_loop_while.asp), and [`do-while loop`](https://www.w3schools.com/jsref/jsref_dowhile.asp), each with its own strengths and weaknesses. Depending on the specific requirements of your code, one type of loop may be more efficient or more readable than another.
 
 Therefore, it's essential to consider the situation and choose the appropriate loop type to achieve the desired results.
 
@@ -88,7 +88,7 @@ After choosing the appropriate loop for your desired task, the Next thing you ne
 
 These Loop control statements allow you to control the flow of a loop. `break` is used to exit a loop completely when a certain condition is met, On the other hand, `continue` is used to skip the current iteration of the loop and move on to the next one.
 
-For example, let's say you have an array of numbers and you want to find the first `even` number in the array using a for loop. You can use `break` to exit the loop once you find the first \`even\` number:
+For example, let's say you have an array of numbers and you want to find the first `even` number in the array using a for loop. You can use `break` to exit the loop once you find the first `even` number:
 
 ```javascript
 const numbers = [1, 3, 2, 5, 4, 7, 6] 
@@ -114,7 +114,7 @@ for (let i = 0; i < numbers.length; i++) {
 }
 ```
 
-In this example, the loop will skip over the \` numbers and only print out the `odd` numbers (which are `1`, `3`, `5`, and `7`). Without the continue statement, the loop would print out all the numbers in the array.
+In this example, the loop will skip over the numbers and only print out the `odd` numbers (which are `1`, `3`, `5`, and `7`). Without the continue statement, the loop would print out all the numbers in the array.
 
 Now we know how to choose the right loop for our task also when to use `break` and `continue`.
 
@@ -171,7 +171,7 @@ By doing this, you avoid accessing the `length` property of the array in each it
 
 Another way to optimize loop performance is by using efficient loops.
 
-For example, `for loop` is generally more efficient than the `forEach` loop when iterating over arrays.
+For example, `for loop` is generally more efficient than the [`forEach`](https://robiul.dev/foreach-method-in-javascript-a-comprehensive-guide) loop when iterating over arrays.
 
 Let's see the code snippet below to understand this:
 
@@ -206,7 +206,8 @@ For Example:
 
 ```javascript
 // Inefficient DOM manipulation 
-for (let i = 0; i < 1000; i++) {                 document.getElementById('myDiv').innerHTML += '<p>' + i + '</p>' 
+for (let i = 0; i < 1000; i++) {                 
+    document.getElementById('myDiv').innerHTML += '<p>' + i + '</p>' 
 } 
 // More efficient DOM manipulation let output = '' 
 for (let i = 0; i < 1000; i++) { 
@@ -310,7 +311,7 @@ for (let i = 0; i <= arr.length; i++) {
 
 This code will result in an `off-by-one` error, because it will try to access an element that doesn't exist when `i` is equal to `arr.length`. The loop will run a total of `11` times instead of `10`, and the final iteration will throw an error because `arr[10]` is `undefined`.
 
-To avoid \`off-by-one\` errors, always double-check your loop conditions to make sure you're using the correct comparison operator and taking into account the initial value of your loop variable.
+To avoid `off-by-one` errors, always double-check your loop conditions to make sure you're using the correct comparison operator and taking into account the initial value of your loop variable.
 
 By avoiding these **common mistakes**, you can ensure that your loops are running as intended and reduce the chances of errors or crashes in your program. It's always a good idea to double-check your loops for these mistakes before running your code.
 
@@ -318,7 +319,7 @@ By avoiding these **common mistakes**, you can ensure that your loops are runnin
 
 ![Use Recursion if needed (robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684954727764/7d50f193-7fba-404f-a157-0fc8656d3dbb.webp align="center")
 
-While loops are powerful, sometimes recursion can be an even more elegant solution.
+While loops are powerful, sometimes [recursion](https://medium.com/sessionstack-blog/how-javascript-works-recursion-in-javascript-what-it-is-and-how-it-is-used-eef3d734f20d) can be an even more elegant solution.
 
 It is particularly useful for traversing hierarchical data structures, where it's not possible to know how many levels of nesting there are in advance. It can also lead to simpler and more elegant code than using nested loops, especially in cases where the depth of the structure is not known in advance.
 
@@ -326,7 +327,7 @@ It is particularly useful for traversing hierarchical data structures, where it'
 
 For example:
 
-Let's say you have a nested array of numbers, and you want to find the `sum` of all the numbers in the array, including the nested ones. One way to do this is by using recursion. Here's an example of how you could use recursion to find the \`sum\`:
+Let's say you have a nested array of numbers, and you want to find the `sum` of all the numbers in the array, including the nested ones. One way to do this is by using recursion. Here's an example of how you could use recursion to find the `sum`:
 
 ```javascript
 const nestedArray = [[1, 2, [3]], 4]; 
