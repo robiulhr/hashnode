@@ -50,7 +50,7 @@ To study and explore the forEach method in-depth, it's crucial to understand its
 
 So, let's take a moment to understand why the `forEach` method exists and what it aims to achieve.
 
-The purpose of the **forEach method in JavaScript** is to simplify the process of iterating over elements in an array and performing an action on each element. It provides a more elegant and expressive alternative to traditional `for loops`, making code more readable and concise.
+The purpose of the **forEach method in JavaScript** is to simplify the process of iterating over elements in an array and performing an action on each element. It provides a more elegant and expressive alternative to traditional [`for loops`](https://www.w3schools.com/js/js_loop_for.asp), making code more readable and concise.
 
 By using the forEach method in JavaScript, you can avoid the hassle of manually managing everything and focus on the logic you want to execute for each array element. It abstracts away the low-level details of iteration and allows you to concentrate on the specific operation you wish to perform.
 
@@ -119,7 +119,7 @@ Now that we have learned the syntax of the forEach method in JavaScript, let's e
 
 ![Defining and passing callbacks to forEach (robiul.dev)](https://cdn.hashnode.com/res/hashnode/image/upload/v1684956086196/32314a50-34fe-4a19-bd44-4915116fd481.webp align="center")
 
-To use the `forEach` method, you need to define and pass a callback function as its parameter. This callback function will be invoked for each element in the array.
+To use the `forEach` method, you need to define and pass a [callback function](https://www.w3schools.com/js/js_callback.asp) as its parameter. This callback function will be invoked for each element in the array.
 
 There are two common ways to define the callback function:
 
@@ -215,13 +215,13 @@ By utilizing these parameters effectively within the callback function, you can 
 
 The second parameter of the forEach method in JavaScript is called `thisArg`. It is an optional parameter that allows you to specify the value of this within the callback function.
 
-By default, when the callback function is executed, the value of `this` inside the callback function refers to the `global object` (`window` in a browser environment or `global` in Node.js).
+By default, when the callback function is executed, the value of `this` inside the callback function refers to the [`global object`](https://developer.mozilla.org/en-US/docs/Glossary/Global_object) (`window` in a browser environment or `global` in Node.js).
 
 However, if you pass a value for `thisArg`, the `this` value within the callback function will be set to the provided value. The `thisArg` parameter can be useful in scenarios where you want to explicitly set the context or scope for the callback function.
 
 For example, if you have an object and you want to use a method from that object as the callback function, you can pass the object as `thisArg` to ensure the method is invoked with the correct context.
 
-Here's an example to illustrate the usage of the thisArg parameter:
+Here's an example to illustrate the usage of the `thisArg` parameter:
 
 ```javascript
 const person = {   
@@ -248,7 +248,7 @@ In the previous section, we have seen how to define and pass callback in the for
 
 But it is also possible to use arrow functions instead of normal functions as callbacks.
 
-Arrow functions provide a more compact syntax for defining functions and automatically bind the current scope, eliminating the need for explicit binding or preserving the `this` keyword. This results in code that is easier to read and understand.
+[Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) provide a more compact syntax for defining functions and automatically bind the current scope, eliminating the need for explicit binding or preserving the `this` keyword. This results in code that is easier to read and understand.
 
 Here's an example demonstrating the use of arrow functions as callbacks with the forEach method:
 
