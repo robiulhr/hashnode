@@ -5,8 +5,8 @@ seoDescription: "What is Node.js exactly? Node.js is like breaking the boundarie
 datePublished: Wed Jun 21 2023 01:10:39 GMT+0000 (Coordinated Universal Time)
 cuid: clj50poi300kx3hnvc5tj217p
 slug: what-is-nodejs-exactly-real-world-example
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1687231619804/4854da35-87c0-44d1-ba33-6a6cfe8c7696.webp
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1687271168722/9c7cc2b1-c79c-4fd0-af8b-6ede5c9c8b0f.webp
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689247843161/d6347e3b-c5a3-402e-9e6d-4812ef4c5514.webp
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1689248107112/eb5dded2-3b0b-4c63-8bcf-51e1aee55294.webp
 tags: tutorial, programming-blogs, javascript, web-development, nodejs
 
 ---
@@ -41,7 +41,7 @@ But with the introduction of Node.js, JavaScript can now operate outside of thos
 
 Let's Understand this using a Real life example:
 
-![What is Node.js exactly? - Restaurant Analogy](https://cdn.hashnode.com/res/hashnode/image/upload/v1687233735357/e58c1db9-41e4-46d4-8737-8f0c237b65c3.png align="center")
+![What is Node js? - Restaurant Analogy](https://cdn.hashnode.com/res/hashnode/image/upload/v1689247879076/5d93a4a7-aa1e-4ad7-9ea5-64710585699d.webp align="center")
 
 Imagine you're a chef working in a small restaurant. Your main job is to prepare delicious dishes for the customers.
 
@@ -55,7 +55,7 @@ In this analogy, the restaurant represents the web browser, and you, the chef, r
 
 Node.js has set JavaScript free from the confines of the browser, breaking it out of its cage and unleashing its power for [server-side development](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction).
 
-![Node.js has set JavaScript free from the confines of the browser, breaking it out of its cage and unleashing its power for server-side development.](https://cdn.hashnode.com/res/hashnode/image/upload/v1687233463864/1c1355c7-face-41cf-883e-a8e1971d1444.webp align="center")
+![Node.js has set JavaScript free from the confines of the browser, breaking it out of its cage and unleashing its power for server-side development.](https://cdn.hashnode.com/res/hashnode/image/upload/v1689247934965/82ae9c6b-f23a-4924-b1c8-568762171e21.webp align="center")
 
 It empowers developers to use JavaScript not just in the browser, but also on servers, enabling them to build powerful web applications, real-time chat apps, data-intensive systems, and more.
 
@@ -69,7 +69,7 @@ In the traditional cooking process, you would follow a sequential approach. You 
 
 But with Node.js, things work differently. As the liberated chef, you can now multitask and work on multiple dishes simultaneously. You can start preparing one dish while another is already cooking, and perhaps brainstorm new recipes for future creations.
 
-![Node can multitask and work on multiple work simultaneously](https://cdn.hashnode.com/res/hashnode/image/upload/v1687234768444/d23a2152-62c8-4047-a594-2448f1c23f66.png align="center")
+![Node can multitask and work on multiple work simultaneously](https://cdn.hashnode.com/res/hashnode/image/upload/v1689247976981/9dad1951-5113-40e2-980e-ebc808407987.webp align="center")
 
 You are no longer bound by a strict sequence; instead, you can efficiently manage your time and resources to accomplish more.
 
@@ -87,7 +87,7 @@ It can handle a large number of concurrent connections and perform data-intensiv
 
 Node.js comes with a set of powerful features that make it a popular choice for building web applications.
 
-![Key Features of Node.js](https://cdn.hashnode.com/res/hashnode/image/upload/v1687242502764/ab9ca426-0644-4547-8d0d-816d31fddc82.webp align="center")
+![Key Features of Node.js](https://cdn.hashnode.com/res/hashnode/image/upload/v1689248011533/e2b3ba0b-61ea-427c-b16d-2e8e6dc137a6.webp align="center")
 
 These unique features make Node.js a powerful and popular choice for building scalable, high-performance web applications. By leveraging these capabilities, developers can create efficient, real-time, and data-intensive applications that meet the demands of modern web development.
 
@@ -213,7 +213,7 @@ Furthermore, npm provides version management, allowing developers to easily upda
 
 Node.js offers several compelling benefits that make it a preferred choice for web development.
 
-![Benefits of Node.js](https://cdn.hashnode.com/res/hashnode/image/upload/v1687242580711/695a6c40-f00d-4898-9586-e24f1213dbc1.webp align="center")
+![Benefits of Node.js](https://cdn.hashnode.com/res/hashnode/image/upload/v1689248065982/98e31862-11cd-4608-8c91-21074464d502.webp align="center")
 
 Let's explore some of the key Benefits of using Node.js:
 
