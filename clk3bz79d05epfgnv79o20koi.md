@@ -5,8 +5,8 @@ seoDescription: "Programming paradigms are different ways or approaches that pro
 datePublished: Sat Jul 15 2023 01:30:09 GMT+0000 (Coordinated Universal Time)
 cuid: clk3bz79d05epfgnv79o20koi
 slug: what-are-programming-paradigms-master-all-popular-ones
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689267021043/a82790e8-2f3a-47f5-94aa-20535fa82d1f.webp
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1689353291496/f4d8f3e2-d839-40ea-85e2-cfb2bc2fea5d.webp
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689412963316/226c5ebf-5ef9-4690-8635-8a23d99e0bb8.webp
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1689412975985/d918a475-b656-4d5f-a9a4-90a8f61a4a0b.webp
 tags: tutorial, programming-blogs, javascript, web-development, paradigm
 
 ---
