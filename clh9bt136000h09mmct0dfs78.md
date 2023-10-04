@@ -524,26 +524,24 @@ Thus, variable helps us to write optimized, developer-friendly, and easy-to-unde
 
 ## Resources
 
-* https://www.w3schools.com/js/js\_variables.asp
+* [JavaScript Variables](https://www.w3schools.com/js/js_variables.asp)
     
-* https://javascript.info/variables
+* [Variables](https://javascript.info/variables)
     
-* https://www.javascripttutorial.net/javascript-variables
+* [JavaScript Variables](https://www.javascripttutorial.net/javascript-variables)
     
-* https://www.freecodecamp.org/news/javascript-variables-beginners-guide
+* [JavaScript Variables – A Beginner's Guide to var, const, and let](https://www.freecodecamp.org/news/javascript-variables-beginners-guide)
     
-* https://www.scaler.com/topics/javascript/javascript-variables/
+* [Javascript variables](https://www.scaler.com/topics/javascript/javascript-variables/)
     
-* https://blog.alexdevero.com/javascript-variables-introduction/
+* [Introduction to JavaScript Variables – What You Should to Know](https://blog.alexdevero.com/javascript-variables-introduction/)
     
-* https://www.freecodecamp.org/news/understanding-let-const-and-var-keywords
+* [What are Variables in JavaScript ?](https://medium.com/@avishaa27/what-are-variables-in-javascript-3aa9a3324a1e)
     
-* https://medium.com/@avishaa27/what-are-variables-in-javascript-3aa9a3324a1e
+* [VARIABLES](https://www.javascript.com/learn/variables)
     
-* https://www.javascript.com/learn/variables
+* [JavaScript Variables](https://www.toolsqa.com/javascript/javascript-variables)
     
-* https://www.toolsqa.com/javascript/javascript-variables
+* [JavaScript Variables – A to Z Guide for a Newbie in JavaScript!](https://data-flair.training/blogs/javascript-variable-tutorial/)
     
-* https://data-flair.training/blogs/javascript-variable-tutorial/
-    
-* https://medium.com/@shreyanshshah242/variables-in-javascript-13099376b279
+* [Variables in JavaScript](https://medium.com/@shreyanshshah242/variables-in-javascript-13099376b279)
