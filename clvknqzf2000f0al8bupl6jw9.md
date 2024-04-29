@@ -81,7 +81,7 @@ git config pull.ff true
 
 Adjusting the configuration might be necessary based on the project's requirements or the preferred merging strategy. If a project involves workflows where non-fast-forward merges are acceptable or necessary, developers might choose to configure pull.ff differently.
 
-## Making commit manually (rebase/merge)
+### Making commit manually (rebase/merge)
 
 [Merge](https://www.w3schools.com/git/git_branch_merge.asp?remote=github) commits are a tremendously useful tool in Git, but they can also add a layer of complexity. That is why it is better to create a merge commit manually without depending on Git to automatically do it for you by changing the default settings.
 
@@ -104,7 +104,7 @@ We can solve this issue in two ways. Let's see both of them:
     Use the git rebase command to reapply your local commits onto the target branch. Here's how you can do it:
     
     ```bash
-    git checkout feature/new-feature git rebase main  
+    git checkout feature/new-feature git rebase main
     ```
     
     This command sequence switches to your feature branch (`feature/new-feature`) and then release your commits onto the `main` branch. If there are conflicts between your changes and the changes on the target branch (`main`), Git will pause the rebase process and prompt you to resolve these conflicts manually. You'll need to edit the conflicted files, stage the changes, and continue the rebase process until all conflicts are resolved.
@@ -120,7 +120,7 @@ We can solve this issue in two ways. Let's see both of them:
     Finally, push the rebased changes to the remote repository if applicable, using git push. Since you've rewritten history with the rebased commits, you may need to force-push if you've already pushed your feature branch to the remote repository:
     
     ```bash
-    git push origin feature/new-feature --force 
+    git push origin feature/new-feature --force
     ```
     
     However, force-pushing can be risky, especially if others are also working on the same branch. If someone else has pulled the branch before you force-push, their local copy of the branch will become out of sync with the remote repository, leading to potential confusion and conflicts.
