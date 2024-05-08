@@ -109,6 +109,8 @@ let birthYear, address;
 > 
 > we will talk about this in any other blog.
 
+---
+
 > **Question:** Suppose, a store has 20 apples in its inventory. how can you store this information in a javascript variable?
 > 
 > 1. apples = 20;
