@@ -109,6 +109,17 @@ let birthYear, address;
 > 
 > we will talk about this in any other blog.
 
+> **Question:** Suppose, a store has 20 apples in its inventory. how can you store this information in a javascript variable?
+> 
+> 1. apples = 20;
+>     
+> 2. let apples = 20;
+>     
+> 3. ver apples = 20;
+>     
+> 4. let apples;
+>     
+
 ## Naming Variables
 
 Not only in JavaScript but also, in all other languages variables must be identified with unique names following some rules and regulations which is called **naming variables**. These unique names are called identifiers. These Identifiers or names can be short (like `a`, `b`, and `c`) or more descriptive (`age`, `name`, `userName`).
