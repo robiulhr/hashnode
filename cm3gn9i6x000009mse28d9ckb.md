@@ -1,7 +1,7 @@
 ---
 title: "PM2: A Journey from Basics to Advanced Node.js Process Management"
 seoTitle: "PM2: A Journey from Basics to Advanced Node.js Process Management"
-seoDescription: "PM2 is a production-grade process manager for Node.js applications. It is designed to help manage, monitor, and keep applications running continuously. "
+seoDescription: "PM2 is a production-grade process manager for Node.js applications. It is designed to help manage, monitor, and keep applications running continuously."
 datePublished: Thu Nov 14 2024 01:41:30 GMT+0000 (Coordinated Universal Time)
 cuid: cm3gn9i6x000009mse28d9ckb
 slug: pm2-a-journey-from-basics-to-advanced-nodejs-process-management
@@ -252,7 +252,7 @@ pm2 reload ecosystem.config.js
 
 This command gracefully reloads all processes defined in your ecosystem file, ensuring that your application remains available during updates.
 
-## Step 7: Managing Logs
+## Step 8: Managing Logs
 
 Logs are crucial for understanding what's happening in your application. Here's how to view them:
 
@@ -284,7 +284,7 @@ pm2 flush
 pm2 logs --err
 ```
 
-## **Step 8: Automatic Restart on Crashes**
+## **Step 9: Automatic Restart on Crashes**
 
 One of PM2's most powerful features is its ability to automatically restart applications that crash or stop unexpectedly. This feature ensures high availability and reliability for your Node.js applications.
 
